@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+button{
+    cursor: pointer;
+}
+header {
+    overflow: visible;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 60px;
+    left: calc(50% - 726px);
+    justify-content: space-between;
+    width: 1452px;
+    height: 46px;
+}
+
+.nav__logo {
+    width: 102.95px;
+    height: 46px;
+}
+
+.nav__logo img {
+    width: 102.95px;
+    height: 46px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 629px;
+    height: 42px;
+    gap: 24px;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #70668C;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #FF7676;
+    text-decoration: underline;
+}
+
+.nav__sign {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 350px;
+    gap: 10px;
+}
+
+#lang {
+    width: 48px;
+    height: 35px;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 15.41px;
+    color: #64748B;
+    font-weight: 400;
+}
+
+#lang option {
+    width: 86px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.btn {
+    background: linear-gradient(to left, #FF7373, #CD2525);
+    border: none;
+    height: 46px;
+    width: 117px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1452px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.head-left {
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.head-left h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #64748B;
+}
+
+.head-left__span {
+    color: #FFC900;
+    text-decoration: underline;
+}
+
+.head-left p {
+    font-size: 20px;
+    font-weight: 400;
+    width: 528.9px;
+    color: #64748B;
+}
+
+.head-left__btn {
+    width: 203px;
+}
+
+.head-right img {
+    width: 605px;
+    height: 605px;
+}
+
+.platform-about {
+    position: absolute;
+    top: 326px;
+    left: 0;
+    z-index: 0;
+}
+
+.slider-container {
+    margin-top: 250px;
+}
+
+.slider {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 35px;
+    overflow: hidden;
+    width: 1452px;
+    margin: 0 auto;
+}
+.slide .slide-img{
+    width: 700px;
+}
+.slide:nth-child(2) {
+    width: 742px;
+    height: 580px;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: flex-start;
+    position: relative;
+    gap: 10px;
+    width: 742px;
+    height: 500px;
+    border-radius: 6.78px;
+    margin-bottom: 10px;
+    padding: 25px;
+    box-shadow: 0px 20px 50px #9290901a;
+    z-index: 1;
+}
+
+.arrov {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.slider-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f9f9f9;
+}
+
+.slide-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    background-color: #64748B;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.slide-btn:hover {
+    background: linear-gradient(to left, #FF7373, #CD2525);
+}
+.discount__page {
+    padding-top: 58px;
+    background: rgba(64, 190, 219, 0.08);
+}
+.discount__inner {
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+}
+
+.discount__left-box {
+    padding-top: 255px;
+    padding-bottom: 161px;
+    position: relative;
+    width: 50%;
+    flex-shrink: 0;
+}
+.discount__icon-img {
+    top: 30px;
+    position: absolute;
+}
+.discount__title {
+    font-weight: 700;
+font-size: 48px;
+color: #64748b;
+margin-bottom: 42px;
+}
+.discount__title span {
+    color: #ffc900;
+}
+.discount__btn {
+    width: 203px;
+height: 62px;
+}
+.discount__right-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    justify-content: flex-end;
+}
+.discount__img {
+    align-self: self-end;
+    width: 100%;
+}
